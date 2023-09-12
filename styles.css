@@ -1,0 +1,189 @@
+/* (Previous CSS styles remain unchanged) */
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the profile section */
+#profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    background-image: url('profile-image.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#profile h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#profile p {
+    font-style: italic;
+}
+
+/* Style the contact section */
+#contact {
+    text-align: center;
+}
+
+#contact h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Style links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pseudo-class example */
+a:active {
+    color: #ff0000;
+}
+
+/* Pseudo-element example */
+#profile::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* Style the experience section */
+#experience {
+    margin-top: 30px;
+}
+
+#experience h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#experience ul {
+    list-style-type: none;
+}
+
+#experience li {
+    margin: 20px 0;
+}
+
+#experience h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style the skills section */
+#skills {
+    margin-top: 30px;
+}
+
+#skills h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+#skills li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+/* (Previous CSS styles remain unchanged) */
+
+/* Style the experience section */
+#experience {
+    margin-top: 30px;
+}
+
+#experience h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#experience ul {
+    list-style-type: none;
+}
+
+#experience li {
+    margin: 20px 0;
+}
+
+#experience h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style the skills section */
+#skills {
+    margin-top: 30px;
+}
+
+#skills h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+#skills li {
+    margin: 10px 0;
+    font-weight: bold;
+}
